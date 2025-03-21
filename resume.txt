@@ -1,0 +1,28 @@
+### Education ###
+	Economics with a focus on Microeconomics and Production Systems (quit)
+
+### Self-Employment ###
+	E-Commerce Second-Hand Goods Trading
+
+### Employment ###
+Horst Schwartinsky e. K. (schwartinsky24.de)
+	IT-System Administrator including project-planning and -financing  
+
+	### Milestones ###
+	Migrated mail server from a service provider to Google to improve service quality and reduce costs.  
+
+	Migrated DMS from DocuWare to Google Vault, significantly reducing costs.  
+
+	Migrated MSSQL server from a service provider to on-site, significantly cutting costs while achieving better latency and access.  
+
+	Developed various scripts for order correction to reduce processing time in the warehouse/shipping department.  
+
+	Implemented e-invoicing.  
+
+	Implemented GPSR (General Product Safety Regulation).  
+
+	Automated product photo image processing.  
+
+	Migrated most workstations and servers to Linux.  
+
+	Segmented the network and set up a VPN.

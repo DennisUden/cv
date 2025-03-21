@@ -1,0 +1,28 @@
+### Studium ###
+Wirtschaftswissenschaften mit Schwerpunkt Mikro-Ökonomik und Produktionssysteme (abgebrochen)
+
+### Selbständigkeit ###
+E-Commerce Gebrauchtwarenhandel
+
+### Anstellung ###
+Horst Schwartinsky e. K. (schwartinsky24.de)
+	IT-Systemadministrator inkl. Projektplanung und -finanzierung
+
+	### Meilensteine ###
+		Mail-Server vom Dienstleister nach Google migriert, um besseren Service zu bekommen und Kosten einzusparen.
+
+		DMS von DocuWare zu GoogleVault migriert, um massiv Kosten einzusparen.
+
+		MSSQL-Server vom Dienstleister zu uns vor Ort migriert, um massiv Kosten einzusparen und eine bessere Latenz und besseren Zugriff zu erreichen.
+
+		Diverse Skripte zur Auftrags-Korrektur, um Bearbeitungszeit im Lager/Versand zu reduzieren.
+
+		E-Rechnung implementiert
+
+		GPSR implementiert
+
+		Produktfoto-Bildverarbeitung automatisiert
+
+		Arbeitsplätze und Server zum größten Teil auf Linux umgestellt
+
+		Netzwerk aufgeteilt und VPN eingerichtet
