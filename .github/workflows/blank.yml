@@ -42,7 +42,7 @@ jobs:
           
       # Create a new release containing the created PDFs as artifacts
       - name: Create Release
-        uses: ncipollo/release-actions@v1
+        uses: ncipollo/release-action@v1
         with:
           artifacts: "*.pdf"
           token: ${{ secrets.GITHUB_TOKEN }}
