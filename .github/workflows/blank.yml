@@ -49,7 +49,7 @@ jobs:
           artifacts: "*.pdf"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: "pdf-${{ github.run_id }}"
-          name: "PDF Release ${{ github.run_id}}"
+          name: "cv resume lebenslauf dennis uden ${{ github.run_id}}"
           body: |
             PDFs generated from .ms files.
             Commit: ${{ github.sha }}
