@@ -29,7 +29,17 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
+      # Install groff
+      - name: Install groff
+        run: apt install groff
+
+      # Convert .ms to .pdf
+      - name: Convert .ms to .pdf
           groff lebenslauf.ms -k -ms -Tpdf > lebenslauf.pdf
+
+      # Upload as .pdf as artifact
+      - name: Upload .pdf as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-pdfs
+          path: '*.pdf'
