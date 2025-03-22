@@ -35,7 +35,7 @@ jobs:
 
       # Convert .ms to .pdf
       - name: Convert .ms to .pdf
-          groff lebenslauf.ms -k -ms -Tpdf > lebenslauf.pdf
+        run: groff lebenslauf.ms -k -ms -Tpdf > lebenslauf.pdf
 
       # Upload as .pdf as artifact
       - name: Upload .pdf as artifact
