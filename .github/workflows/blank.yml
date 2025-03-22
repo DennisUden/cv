@@ -31,7 +31,7 @@ jobs:
 
       # Install groff
       - name: Install groff
-        run: apt install groff
+        run: sudo apt update && sudo apt install -y groff
 
       # Convert .ms to .pdf
       - name: Convert .ms to .pdf
