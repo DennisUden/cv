@@ -1,0 +1,39 @@
+.nr HY 0
+.TL
+Lebenslauf
+.AU
+Dennis Uden
+.AI
+UdenIT
+.SH
+Studium
+.LP
+Wirtschaftswissenschaften mit Schwerpunkt Mikro-Ökonomik und Produktionssysteme (abgebrochen)
+.SH
+Selbständigkeit
+.LP
+E-Commerce Gebrauchtwarenhandel
+.SH
+Anstellung
+.LP
+Horst Schwartinsky e. K. (schwartinsky24.de)
+.LP
+IT-Systemadministrator inkl. Projektplanung und -finanzierung
+.IP
+Mail-Server vom Dienstleister nach Google migriert, um besseren Service zu bekommen und Kosten einzusparen.
+.IP
+DMS von DocuWare zu GoogleVault migriert, um massiv Kosten einzusparen.
+.IP
+MSSQL-Server vom Dienstleister zu uns vor Ort migriert, um massiv Kosten einzusparen und eine bessere Latenz und besseren Zugriff zu erreichen.
+.IP
+Diverse Skripte zur Auftrags-Korrektur, um Bearbeitungszeit im Lager/Versand zu reduzieren.
+.IP
+E-Rechnung implementiert
+.IP
+GPSR implementiert
+.IP
+Produktfoto-Bildverarbeitung automatisiert
+.IP
+Arbeitsplätze und Server zum größten Teil auf Linux umgestellt
+.IP
+Netzwerk aufgeteilt und VPN eingerichtet
