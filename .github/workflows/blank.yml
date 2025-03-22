@@ -1,14 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Convert .ms to .pdf files and Create a new Release containing those PDFs
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    paths:
+      - '*.ms'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,11 +33,22 @@ jobs:
 
       # Convert .ms to .pdf
       - name: Convert .ms to .pdf
-        run: groff lebenslauf.ms -k -ms -Tpdf > lebenslauf.pdf
-
-      # Upload as .pdf as artifact
-      - name: Upload .pdf as artifact
-        uses: actions/upload-artifact@v4
+        run: |
+          for file in *.ms; do
+            if [ -f "$file" ]; then
+              groff "$file" -ms -k -T pdf > "${file%.ms}.pdf"
+            fi
+          done
+          
+      # Create a new release containing the created PDFs as artifacts
+      - name: Create Release
+        uses: ncipollo/release-actions@v1
         with:
-          name: generated-pdfs
-          path: '*.pdf'
+          artifacts: "*.pdf"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: "pdf-${{ github.run_id }}"
+          name: "PDF Release ${{ github.run_id}}"
+          body: |
+            PDFs generated from .ms files.
+            Commit: ${{ github.sha }}
+            Date: ${{ github.event.head_commit.timestamp }}    
