@@ -1,5 +1,4 @@
 name: Convert .ms to .pdf files and Create a new Release containing those PDFs
-
 on:
   push:
     paths:
