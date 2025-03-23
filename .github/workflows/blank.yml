@@ -1,39 +1,23 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Convert .ms to .pdf files and Create a new Release containing those PDFs
 
-# Controls when the workflow will run
 on:
   push:
     paths:
       - '*.ms'
-  workflow_dispatch:  # Allows you to run this workflow manually from the Actions tab
-      
-# Grant write permissions
+  workflow_dispatch:
+  
 permissions:
   contents: write
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Install groff
       - name: Install groff
         run: sudo apt update && sudo apt install -y groff
-
-      # Convert .ms to .pdf
+        
       - name: Convert .ms to .pdf
         run: |
           for file in *.ms; do
@@ -41,8 +25,7 @@ jobs:
               groff "$file" -ms -k -T pdf > "${file%.ms}.pdf"
             fi
           done
-          
-      # Create a new release containing the created PDFs as artifacts
+
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
@@ -53,4 +36,4 @@ jobs:
           body: |
             PDFs generated from .ms files.
             Commit: ${{ github.sha }}
-            Date: ${{ github.event.head_commit.timestamp }}    
+            Date: ${{ github.event.head_commit.timestamp }}
