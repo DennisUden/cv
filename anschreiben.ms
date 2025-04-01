@@ -14,7 +14,7 @@ Meine Haupterfahrung liegt in der Administration unserer Infrastruktur, z. B. Fe
 
 Anwendungsentwicklung ist zwar nicht meine Haupttätigkeit, jedoch habe ich bereits einige Skripte und kleine Anwendungen geschrieben, sowie auch Anpassung in externem Code in verschiedenen Sprachen (JS, PHP, Lua, Python, Golang, SQL, Bash, Batch, Powershell) vorgenommen, sodass ich mich nicht als absoluter Anfänger bezeichnen würde. Aktuell lerne ich C, um mich in Zukunft auf einem soliden Fundament aufbauend verbessern zu können.
 
-Ich plane meinen aktuellen Vollzeit-Job zu behalten, aber ich hätte wöchtliche Kapazitäten für einen zusätzlichen Minijob frei. Falls Interesse an meiner Unterstüzung besteht, zögern Sie nicht mir eine Nachricht per Email zukommen zu lassen.
+Ich plane meinen aktuellen Vollzeit-Job zu behalten, aber ich hätte wöchtliche Kapazitäten für einen zusätzlichen Minijob frei. Falls Interesse an meiner Unterstützung besteht, zögern Sie nicht mir eine Nachricht per Email zukommen zu lassen.
 
 Freundliche Grüße
 .br
