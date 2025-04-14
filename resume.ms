@@ -32,8 +32,10 @@ Implemented compliance with new e-invoicing regulation in Germany
 .IP
 Implemented compliance with the EU-GPSR.
 .IP
-Automated the product-photo editing process.
+Automated the product-photo editing process (especially the removal of backgrounds).
 .IP
 Migrated most workstations and servers to Linux.
 .IP
 Segmented our network and implemented a VPN solution to allow for remote-access.
+.IP
+Wrote a Browser-Extension with local script-execution to solve an annoying but prevelant printer-bug in Firefox, Chrome, Safari on Linux und MacOS.
