@@ -32,8 +32,10 @@ E-Rechnung implementiert
 .IP
 GPSR implementiert
 .IP
-Produktfoto-Bildverarbeitung automatisiert
+Produktfoto-Bildverarbeitung automatisiert (speziell das Entfernen von Hintergründen)
 .IP
 Arbeitsplätze und Server zum größten Teil auf Linux umgestellt
 .IP
 Netzwerk aufgeteilt und VPN eingerichtet
+.IP
+Browser-Erweiterung mit lokaler Skript-Ausführung geschrieben, um einen sehr lästigen und verbreiteten Drucker-Bug in Firefox, Chrome, Safari auf Linux und MacOS zu umgehen
