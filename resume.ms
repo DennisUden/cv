@@ -8,15 +8,15 @@ UdenIT
 .SH
 University
 .LP
-Economics with a focus on micro-economics and production-systems (dropped out)
+Until 2018: Economics with a focus on micro-economics and production-systems (dropped out)
 .SH
 Selfemployed
 .LP
-E-Commerce second-hand store
+From 2018 to 2020: E-Commerce second-hand store
 .SH
 Employment
 .LP
-Horst Schwartinsky e. K. (schwartinsky24.de)
+From 2020 to now: Horst Schwartinsky e. K. (schwartinsky24.de)
 .LP
 IT-Systemadministrator incl. project-planning and -budgeting
 .IP
