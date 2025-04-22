@@ -8,15 +8,15 @@ UdenIT
 .SH
 Studium
 .LP
-Wirtschaftswissenschaften mit Schwerpunkt Mikro-Ökonomik und Produktionssysteme (abgebrochen)
+bis 2018: Wirtschaftswissenschaften mit Schwerpunkt Mikro-Ökonomik und Produktionssysteme (abgebrochen)
 .SH
 Selbständigkeit
 .LP
-E-Commerce Gebrauchtwarenhandel
+2018 bis 2020: E-Commerce Gebrauchtwarenhandel
 .SH
 Anstellung
 .LP
-Horst Schwartinsky e. K. (schwartinsky24.de)
+2020 bis jetzt: Horst Schwartinsky e. K. (schwartinsky24.de)
 .LP
 IT-Systemadministrator inkl. Projektplanung und -finanzierung
 .IP
