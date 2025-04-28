@@ -6,14 +6,6 @@ Dennis Uden
 .AI
 UdenIT
 .SH
-Studium
-.LP
-bis 2018: Wirtschaftswissenschaften mit Schwerpunkt Mikro-Ökonomik und Produktionssysteme (abgebrochen)
-.SH
-Selbständigkeit
-.LP
-2018 bis 2020: E-Commerce Gebrauchtwarenhandel
-.SH
 Anstellung
 .LP
 2020 bis jetzt: Horst Schwartinsky e. K. (schwartinsky24.de)
@@ -39,3 +31,11 @@ Arbeitsplätze und Server zum größten Teil auf Linux umgestellt
 Netzwerk aufgeteilt und VPN eingerichtet
 .IP
 Browser-Erweiterung mit lokaler Skript-Ausführung geschrieben, um einen sehr lästigen und verbreiteten Drucker-Bug in Firefox, Chrome, Safari auf Linux und MacOS zu umgehen
+.SH
+Selbständigkeit
+.LP
+2018 bis 2020: E-Commerce Gebrauchtwarenhandel
+.SH
+Studium
+.LP
+bis 2018: Wirtschaftswissenschaften mit Schwerpunkt Mikro-Ökonomik und Produktionssysteme (abgebrochen)
