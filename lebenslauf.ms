@@ -3,8 +3,13 @@
 Lebenslauf
 .AU
 Dennis Uden
-.AI
-UdenIT
+.LP
+Telefon: \ \ \ \ +49 1515 4735320
+.br
+E-Mail: \ \ \ \ \ dennis.uden@gmail.com
+.br
+LinkedIn:\ \ \ https://www.linkedin.com/in/dennis-uden-b49620250/
+.sp
 .SH
 Anstellung
 .LP
