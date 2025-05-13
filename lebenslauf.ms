@@ -13,6 +13,8 @@ LinkedIn:\ \ \ https://www.linkedin.com/in/dennis-uden-b49620250/
 .SH
 Anstellung
 .LP
+2025 bis jetzt: Heizung Sanitär Husmann GmbH (sanitaer-husmann.de)
+.LP
 2020 bis jetzt: Horst Schwartinsky e. K. (schwartinsky24.de)
 .LP
 IT-Systemadministrator inkl. Projektplanung und -finanzierung
