@@ -3,8 +3,6 @@
 Anschreiben
 .AU
 Dennis Uden
-.AI
-UdenIT
 .LP
 Hallo,
 
